@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern support site</title>
+     <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="image/internsupportsite-bute-img/favicon.png">
+
+</head>
+
+<body>
+    <header>
+        <img class="header" src="image/internsupportsite-bute-img/top-img.jpg" alt="header">
+    </header>
+
+    <div class="container" id="top">
+        <div class="title">
+            <h1>Intern support site</h1>
+            <div class="row">
+                <div class="column">
+                    <h2>Sociale medier</h2>
+               <a href="#some"><img src="image/internsupportsite-bute-img/BUTEsome.png" alt="some-ikon"></a>
+                </div>
+
+                <div class="column">
+                    <h2>Content kalender</h2>
+               <a href="#v-cal"> <img src="image/internsupportsite-bute-img/Kalendersome.png" alt="kalender-ikon"></a>
+                </div>
+
+                <div class="column">
+                    <h2>Design & tone of voice</h2>
+                    <a href="#designguide"> <img src="image/internsupportsite-bute-img/logo-lettermark.png" alt="logo-ikon"> </a>
+                </div>
+
+                <div class="column">
+                    <h2>Analyse & SEO</h2>
+                    <a href="#analyse"> <img src="image/internsupportsite-bute-img/Analysesome.png" alt="analyse-ikon"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pa parallax" id="soenderhoej">
+        </div>
+
+        
+            <div id="v-cal">
+                <div class="vcal-header">
+                    <button class="vcal-btn" data-calendar-toggle="previous">
+                        <svg height="24" version="1.1" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                        </svg>
+                    </button>
+    
+                    <div class="vcal-header__label" data-calendar-label="month">
+                        March 2017
+                    </div>
+    
+    
+                    <button class="vcal-btn" data-calendar-toggle="next">
+                        <svg height="24" version="1.1" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="vcal-week">
+                    <span>Man</span>
+                    <span>Tir</span>
+                    <span>Ons</span>
+                    <span>Tors</span>
+                    <span>Fre</span>
+                    <span>Lør</span>
+                    <span>Søn</span>
+                </div>
+                <div class="vcal-body" data-calendar-area="month"></div>
+            </div>
+    
+            <p class="demo-picked">
+                Valgt dato:
+                <span data-calendar-label="picked"></span>
+            </p>
+
+
+        <div class="ist parallax">
+        </div>
+
+        <div id="some" class="between">
+            <div class="title middle">
+                <h1>Sociale medier</h1>
+                <img class="widgetheader" src="image/internsupportsite-bute-img/linkedin.png" alt="linkedin-logo">
+        
+                <div class="tagembed-container" style=" width:100%;height:100%;overflow: auto;"><div class="tagembed-socialwall" data-wall-id="48445" view-url="https://widget.tagembed.com/48445?view">  </div> <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script></div>
+            </div>
+        </div>     
+        
+        <div class="row3">
+            <div class="bokse">
+                <h4 class="h4bokse">LinkedIn plan</h4>
+                <table cellspacing=8 id="data_table5" border="1">
+                    <tr>
+                    <th>Dato</th>
+                    <th>Beskrivelse</th>
+                    </tr>
+                    
+                    <tr id="rowwwww1">
+                    <td id="date_rowww1">3/7</td>
+                    <td id="info_rowww1">Identitets opslag</td>
+                    <td class="td">
+                    <i class='bx bx-edit' type="button" id="edit_bu1" class="edit" onclick="edit_row5('1')"></i>
+                    <i class='bx bx-save' type="button" id="save_bu1" class="save" onclick="save_row5('1')"></i>
+                    <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row5('1')"></i>
+                    </td>
+                    </tr>
+                    
+                    <tr id="rowwwww2">
+                    <td id="date_rowww2">5/7</td>
+                    <td id="info_rowww2">Babila opslag</td>
+                    <td class="td">
+                    <i class='bx bx-edit' type="button" id="edit_bu2" class="edit" onclick="edit_row5('2')"></i>
+                    <i class='bx bx-save' type="button" id="save_bu2" class="save" onclick="save_row5('2')"></i>
+                    <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row5('2')"></i>
+                    </td>
+                    </tr>
+                    
+                    <tr id="rowwwww3">
+                    <td id="date_rowww3">7/7</td>
+                    <td id="info_rowww3">Spiga opslag</td>
+                    <td class="td">
+                    <i class='bx bx-edit' type="button" id="edit_bu3" class="edit" onclick="edit_row5('3')"></i>
+                    <i class='bx bx-save' type="button" id="save_bu3" class="save" onclick="save_row5('3')"></i>
+                    <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row5('3')"></i>
+                    </td>
+                    </tr>
+
+                    <tr id="rowwww4">
+                        <td id="date_rowww4">9/7</td>
+                        <td id="info_rowww4">Konkurrence (UGC)</td>
+                        <td class="td">
+                        <i class='bx bx-edit' type="button" id="edit_bu3" class="edit" onclick="edit_row5('4')"></i>
+                        <i class='bx bx-save' type="button" id="save_bu3" class="save" onclick="save_row5('4')"></i>
+                        <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row5('4')"></i>
+                        </td>
+                        </tr>
+                    
+                    <tr>
+                    <td><input type="text" id="new_date3"></td>
+                    <td><input type="text" id="new_info3"></td>
+                    <td><i class='bx bx-comment-add' type="button" class="add" onclick="add_row5();"></i></td>
+                    </tr>
+                    
+                    </table>
+                </div>
+            
+            <div class="bokse">
+                <h4 class="h4bokse">#Hashtags</h4>
+        
+            <table cellspacing=8 id="data_table6" border="1">
+                    
+                    <tr id="rowwwwww1">
+                    <td id="name_rowww1">#createyourownstyle</td>
+                    <td class="td">
+                    <i class='bx bx-edit' type="button" id="edit_b1" class="edit" onclick="edit_row6('1')"></i>
+                    <i class='bx bx-save' type="button" id="save_b1" class="save" onclick="save_row6('1')"></i>
+                    <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row6('1')"></i>
+                    </td>
+                    </tr>
+                    
+                    <tr id="rowwwwww2">
+                    <td id="name_rowww2">#bebute </td>
+                    <td class="td">
+                    <i class='bx bx-edit' type="button" id="edit_b2" class="edit" onclick="edit_row6('2')"></i>
+                    <i class='bx bx-save' type="button" id="save_b2" class="save" onclick="save_row6('2')"></i>
+                    <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row6('2')"></i>
+                    </td>
+                    </tr>
+                    
+                    <tr id="rowwwwww3">
+                    <td id="name_rowww3">#shoes</td>
+                    <td class="td">
+                    <i class='bx bx-edit' type="button" id="edit_b3" class="edit" onclick="edit_row6('3')"></i>
+                    <i class='bx bx-save' type="button" id="save_b3" class="save" onclick="save_row6('3')"></i>
+                    <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row6('3')"></i>
+                    </td>
+                    </tr>
+        
+                    <tr id="rowwwwww4">
+                    <td id="name_rowww4">#italy</td>
+                    <td class="td">
+                    <i class='bx bx-edit' type="button" id="edit_b4" class="edit" onclick="edit_row6('4')"></i>
+                    <i class='bx bx-save' type="button" id="save_b4" class="save" onclick="save_row6('4')"></i>
+                    <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row6('4')"></i>
+                    </td>
+                    </tr>
+        
+                    <tr id="rowwwwww5">
+                    <td id="name_rowww5">#bebutekonkurrence</td>
+                    <td class="td">
+                    <i class='bx bx-edit' type="button" id="edit_b5" class="edit" onclick="edit_row6('5')"></i>
+                    <i class='bx bx-save' type="button" id="save_b5" class="save" onclick="save_row6('5')"></i>
+                    <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row6('5')"></i>
+                    </td>
+                    </tr>   
+                    
+                    <tr>
+                    <td><input type="text" id="new_name4"></td>
+                    <td><i class='bx bx-comment-add' type="button" class="add" onclick="add_row6();"></i></td>
+                    </tr>
+                    
+                    </table>
+        
+            </div>
+        
+        <div class="bokse_ugc">
+                
+            <div class="ugc_flex">
+                <div class="ugc_flex1">
+                <h4 class="h4bokse_ugc">User Generated Content</h4>
+                <p class="tekst_ugc"> Konkurrence! <br>
+                    Vind en tur til Macerata, Italien og få et ekstraordinært smugkig på vores nye modeller samt modtage en af vores modeller af eget valg. De 3 bedste outfits vil blive lagt op på alle vores digitale platforme. Deadline for deltagelse af konkurrencen: 05/07/22.
+                    <br>
+                    Regler og betingelser: Deltag ved at skabe et outfit ud fra en af vores modeller og send det til Bute@bute.dk med emne beskrivelsen: #bebutekonkurrence. Vinderne vil blive fundet 15/07/22. Vinderne vil blive kontaktet via mail.  
+                    <br>*
+                    <br>*
+                    <br>*
+                    <br> #createyourownstyle #bebute #shoes #italy
+                    <br>
+                    <br>
+                    * Denne konkurrence er ikke betalt eller associeret med Facebook *</p>
+                </div>
+                <div class="ugc_flex2">
+                <img class="pjece" src="image/internsupportsite-bute-img/Butekonk.jpg" alt="Buté konkurrence">
+                </div>    
+            </div> 
+                <a href="image/internsupportsite-bute-img/Butekonk.jpg"> <img class="download_pjece_ugc" src="image/download.png"  alt="download">
+                </a> 
+                <img class="plus_ugc" src="image/plus.png"  alt="plus">
+        </div>
+        </div>
+
+
+        <div id="some" class="between">
+            <div class="title middle">
+                <img class="widgetheader" src="image/internsupportsite-bute-img/instagram.png" alt="instagram-logo">
+                <!-- SnapWidget -->
+<iframe src="https://snapwidget.com/embed/1000153" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:960px; height:2116px"></iframe>
+</div>
+</div>
+
+<div class="row3">
+    <div class="bokse">
+        <h4 class="h4bokse">Instagram plan</h4>
+        <table cellspacing=8 id="data_table" border="1">
+            <tr>
+            <th>Dato</th>
+            <th>Beskrivelse</th>
+            </tr>
+            
+            <tr id="row1">
+            <td id="date_row1">3/7</td>
+            <td id="info_row1">BUTE opslag</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_button1" class="edit" onclick="edit_row('1')"></i>
+            <i class='bx bx-save' type="button" id="save_button1" class="save" onclick="save_row('1')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row('1')"></i>
+            </td>
+            </tr>
+            
+            <tr id="row2">
+            <td id="date_row2">5/7</td>
+            <td id="info_row2">Babila opslag</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_button2" class="edit" onclick="edit_row('2')"></i>
+            <i class='bx bx-save' type="button" id="save_button2" class="save" onclick="save_row('2')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row('2')"></i>
+            </td>
+            </tr>
+            
+            <tr id="row3">
+            <td id="date_row3">7/7</td>
+            <td id="info_row3">Macerata opslag</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_button3" class="edit" onclick="edit_row('3')"></i>
+            <i class='bx bx-save' type="button" id="save_button3" class="save" onclick="save_row('3')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row('3')"></i>
+            </td>
+            </tr>
+
+            <tr id="row4">
+            <td id="date_row4">9/7</td>
+            <td id="info_row4">Spiga opslag</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_button4" class="edit" onclick="edit_row('4')"></i>
+            <i class='bx bx-save' type="button" id="save_button4" class="save" onclick="save_row('4')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row('4')"></i>
+            </td>
+            </tr>
+
+            <tr id="row5">
+            <td id="date_row5">11/7</td>
+            <td id="info_row5">Condotti opslag</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_button5" class="edit" onclick="edit_row('5')"></i>
+            <i class='bx bx-save' type="button" id="save_button5" class="save" onclick="save_row('5')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row('5')"></i>
+            </td>
+            </tr>
+
+            <tr id="row6">
+            <td id="date_row6">13/7</td>
+            <td id="info_row6">Babila reel</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_button6" class="edit" onclick="edit_row('6')"></i>
+            <i class='bx bx-save' type="button" id="save_button6" class="save" onclick="save_row('6')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row('6')"></i>
+            </td>
+            </tr>
+            
+            <tr>
+            <td><input type="text" id="new_date"></td>
+            <td><input type="text" id="new_info"></td>
+            <td><i class='bx bx-comment-add' type="button" class="add" onclick="add_row();"></i></td>
+            </tr>
+            
+            </table>
+        </div>
+    
+    <div class="bokse">
+        <h4 class="h4bokse">#Hashtags</h4>
+
+    <table cellspacing=8 id="data_table2" border="1">
+            
+            <tr id="roww1">
+            <td id="name_row1">#createyourownstyle</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butto1" class="edit" onclick="edit_row2('1')"></i>
+            <i class='bx bx-save' type="button" id="save_butto1" class="save" onclick="save_row2('1')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row2('1')"></i>
+            </td>
+            </tr>
+            
+            <tr id="roww2">
+            <td id="name_row2">#bebute </td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butto2" class="edit" onclick="edit_row2('2')"></i>
+            <i class='bx bx-save' type="button" id="save_butto2" class="save" onclick="save_row2('2')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row2('2')"></i>
+            </td>
+            </tr>
+            
+            <tr id="roww3">
+            <td id="name_row3">#shoes</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butto3" class="edit" onclick="edit_row2('3')"></i>
+            <i class='bx bx-save' type="button" id="save_butto3" class="save" onclick="save_row2('3')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row2('3')"></i>
+            </td>
+            </tr>
+
+            <tr id="roww4">
+            <td id="name_row4">#italy</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butto4" class="edit" onclick="edit_row2('4')"></i>
+            <i class='bx bx-save' type="button" id="save_butto4" class="save" onclick="save_row2('4')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row2('4')"></i>
+            </td>
+            </tr>
+
+            <tr id="roww5">
+            <td id="name_row5">#bebutekonkurrence</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butto5" class="edit" onclick="edit_row2('5')"></i>
+            <i class='bx bx-save' type="button" id="save_butto5" class="save" onclick="save_row2('5')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row2('5')"></i>
+            </td>
+            </tr>   
+            
+            <tr>
+            <td><input type="text" id="new_name2"></td>
+            <td><i class='bx bx-comment-add' type="button" class="add" onclick="add_row2();"></i></td>
+            </tr>
+            
+            </table>
+
+    </div>
+
+<div class="bokse_ugc">
+        
+    <div class="ugc_flex">
+        <div class="ugc_flex1">
+        <h4 class="h4bokse_ugc">User Generated Content</h4>
+        <p class="tekst_ugc"> Konkurrence! <br>
+            Vind en tur til Macerata, Italien og få et ekstraordinært smugkig på vores nye modeller samt modtage en af vores modeller af eget valg. De 3 bedste outfits vil blive lagt op på alle vores digitale platforme. Deadline for deltagelse af konkurrencen: 05/07/22.
+            <br>
+            Regler og betingelser: Deltag ved at skabe et outfit ud fra en af vores modeller og send det til Bute@bute.dk med emne beskrivelsen: #bebutekonkurrence. Vinderne vil blive fundet 15/07/22. Vinderne vil blive kontaktet via mail.  
+            <br>*
+            <br>*
+            <br>*
+            <br> #createyourownstyle #bebute #shoes #italy
+            <br>
+            <br>
+            * Denne konkurrence er ikke betalt eller associeret med Facebook *</p>
+        </div>
+        <div class="ugc_flex2">
+        <img class="pjece" src="image/internsupportsite-bute-img/Butekonk.jpg" alt="Buté konkurrence">
+        </div>    
+    </div> 
+        <a href="image/internsupportsite-bute-img/Butekonk.jpg"> <img class="download_pjece_ugc" src="image/download.png"  alt="download">
+        </a> 
+        <img class="plus_ugc" src="image/plus.png"  alt="plus">
+</div>
+    
+</div>
+
+
+
+    <div id="some" class="between">
+        <div class="title middle">
+            <img class="widgetheader" src="image/internsupportsite-bute-img/facebook.png" alt="facebook-logo">
+            <!-- SnapWidget -->
+<iframe src="https://snapwidget.com/embed/1000150" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:960px; height:1587px"></iframe>
+
+        </div>
+    </div>
+
+<div class="row3">
+    <div class="bokse">
+        <h4 class="h4bokse">Facebook plan</h4>
+        <table cellspacing=8 id="data_table3" border="1">
+            <tr>
+            <th>Dato</th>
+            <th>Beskrivelse</th>
+            </tr>
+            
+            <tr id="rowww1">
+            <td id="date_roww1">3/7</td>
+            <td id="info_roww1">Vores navn opslag</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butt1" class="edit" onclick="edit_row3('1')"></i>
+            <i class='bx bx-save' type="button" id="save_butt1" class="save" onclick="save_row3('1')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row3('1')"></i>
+            </td>
+            </tr>
+            
+            <tr id="rowww2">
+            <td id="date_roww2">5/7</td>
+            <td id="info_roww2">Babila motiongraphic</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butt2" class="edit" onclick="edit_row3('2')"></i>
+            <i class='bx bx-save' type="button" id="save_butt2" class="save" onclick="save_row3('2')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row3('2')"></i>
+            </td>
+            </tr>
+            
+            <tr id="rowww3">
+            <td id="date_roww3">7/7</td>
+            <td id="info_roww3">Mercerata motiongraphic </td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butt3" class="edit" onclick="edit_row3('3')"></i>
+            <i class='bx bx-save' type="button" id="save_butt3" class="save" onclick="save_row3('3')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row3('3')"></i>
+            </td>
+            </tr>
+
+            <tr id="rowww4">
+            <td id="date_roww4">9/7</td>
+            <td id="info_roww4">Spiga motiongraphic </td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butt4" class="edit" onclick="edit_row3('4')"></i>
+            <i class='bx bx-save' type="button" id="save_butt4" class="save" onclick="save_row3('4')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row3('4')"></i>
+            </td>
+            </tr>
+
+            <tr id="rowww5">
+            <td id="date_roww5">11/7</td>
+            <td id="info_roww5">Condotti motiongraphic </td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butt5" class="edit" onclick="edit_row3('5')"></i>
+            <i class='bx bx-save' type="button" id="save_butt5" class="save" onclick="save_row3('5')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row3('5')"></i>
+            </td>
+            </tr>    
+
+            <tr id="rowww6">
+            <td id="date_roww6">13/7</td>
+            <td id="info_roww6">Konkurrence </td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_butt6" class="edit" onclick="edit_row3('6')"></i>
+            <i class='bx bx-save' type="button" id="save_butt6" class="save" onclick="save_row3('6')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row3('6')"></i>
+            </td>
+            </tr>         
+            
+            <tr>
+            <td><input type="text" id="new_date2"></td>
+            <td><input type="text" id="new_info2"></td>
+            <td><i class='bx bx-comment-add' type="button" class="add" onclick="add_row3();"></i></td>
+            </tr>
+            
+            </table>
+        </div>
+    
+    <div class="bokse">
+        <h4 class="h4bokse">#Hashtags</h4>
+
+    <table cellspacing=8 id="data_table4" border="1">
+            
+            <tr id="rowwww1">
+            <td id="name_roww1">#createyourownstyle</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_but1" class="edit" onclick="edit_row4('1')"></i>
+            <i class='bx bx-save' type="button" id="save_but1" class="save" onclick="save_row4('1')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row4('1')"></i>
+            </td>
+            </tr>
+            
+            <tr id="rowwww2">
+            <td id="name_roww2">#bebute </td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_but2" class="edit" onclick="edit_row4('2')"></i>
+            <i class='bx bx-save' type="button" id="save_but2" class="save" onclick="save_row4('2')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row4('2')"></i>
+            </td>
+            </tr>
+            
+            <tr id="rowwww3">
+            <td id="name_roww3">#shoes</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_but3" class="edit" onclick="edit_row4('3')"></i>
+            <i class='bx bx-save' type="button" id="save_but3" class="save" onclick="save_row4('3')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row4('3')"></i>
+            </td>
+            </tr>
+
+            <tr id="rowwww4">
+            <td id="name_roww4">#italy</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_but4" class="edit" onclick="edit_row4('4')"></i>
+            <i class='bx bx-save' type="button" id="save_but4" class="save" onclick="save_row4('4')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row4('4')"></i>
+            </td>
+            </tr>
+
+            <tr id="rowwww5">
+            <td id="name_roww5">#bebutekonkurrence</td>
+            <td class="td">
+            <i class='bx bx-edit' type="button" id="edit_but5" class="edit" onclick="edit_row4('5')"></i>
+            <i class='bx bx-save' type="button" id="save_but5" class="save" onclick="save_row4('5')"></i>
+            <i class='bx bx-comment-x' type="button" class="delete" onclick="delete_row4('5')"></i>
+            </td>
+            </tr>   
+            
+            <tr>
+            <td><input type="text" id="new_name3"></td>
+            <td><i class='bx bx-comment-add' type="button" class="add" onclick="add_row4();"></i></td>
+            </tr>
+            
+            </table>
+
+    </div>
+
+<div class="bokse_ugc">
+        
+    <div class="ugc_flex">
+        <div class="ugc_flex1">
+        <h4 class="h4bokse_ugc">User Generated Content</h4>
+        <p class="tekst_ugc"> Konkurrence! <br>
+            Vind en tur til Macerata, Italien og få et ekstraordinært smugkig på vores nye modeller samt modtage en af vores modeller af eget valg. De 3 bedste outfits vil blive lagt op på alle vores digitale platforme. Deadline for deltagelse af konkurrencen: 05/07/22.
+            <br>
+            Regler og betingelser: Deltag ved at skabe et outfit ud fra en af vores modeller og send det til Bute@bute.dk med emne beskrivelsen: #bebutekonkurrence. Vinderne vil blive fundet 15/07/22. Vinderne vil blive kontaktet via mail.  
+            <br>*
+            <br>*
+            <br>*
+            <br> #createyourownstyle #bebute #shoes #italy
+            <br>
+            <br>
+            * Denne konkurrence er ikke betalt eller associeret med Facebook *</p>
+        </div>
+        <div class="ugc_flex2">
+        <img class="pjece" src="image/internsupportsite-bute-img/Butekonk.jpg" alt="Buté konkurrence">
+        </div>    
+    </div> 
+        <a href="image/internsupportsite-bute-img/Butekonk.jpg"> <img class="download_pjece_ugc" src="image/download.png"  alt="download">
+        </a> 
+        <img class="plus_ugc" src="image/plus.png"  alt="plus">
+</div>
+</div>
+
+
+
+        <div class="fir parallax" id="firenze">
+        </div>
+
+        <div class="designguide">
+        <div id="designguide" class="tone">
+            <div class="title middle">
+                <h1 class="design_guide">Design 
+                    <br> Guide</h1>
+
+                  <img src="image/internsupportsite-bute-img/designguide-img.jpg" width="500px" alt="prikker">
+                  <a href="pdf/design-guide.pdf"> <img class="download_img" src="image/download.png"width="100px" alt="download">
+</a>                </div>
+            </div>
+
+                <div>
+                <h1 id="tekst4">Tone of 
+                    <br> Voice Guide</h1>
+
+                  <img src="image/internsupportsite-bute-img/tov-img.jpg" width="500px" alt="mikrofon">
+                  <a href="pdf/BUTE_TOV.pdf"> <img class="download_img"  src="image/download.png"width="100px" alt="download"> </a>
+             
+                </div>
+<br>
+<br>
+<br>
+<br>
+                <div>
+                    <img src="image/internsupportsite-bute-img/tov.png" width="600px" alt="tone of voice">
+                </div>
+            </div>
+
+
+
+
+
+
+                
+
+
+    <div class="container" id="top">
+        <div id="analyse" class="title">
+            <h1>Golden circle</h1>
+        </div> 
+
+        <div class="golden_circle_img"> <img src="image/internsupportsite-bute-img/Golden circle.jpg" alt="" width="450px"></div>
+
+        <div class="golden_circle">
+            <div class="golden1">
+            <h2><strong>Hvad?</strong></h2>
+            <p>
+                Kvalitets sko.
+                Skoene har en fremragende kvalitet og kan holde til fester og arbejde. 
+                <br>
+                Lækkert design.
+                Design er i fokus og passe med den nordiske stil, sammen tid med de har et touch af made in Italy.  
+                <br>
+                Komfort. 
+                Komfort er vigtig da vi har med kunder der er på farten dagen lang at gøre. 
+                <br>
+                Med BUTÈ køber du dig ind i en klub (Erhvervslivet og entreprenørskab)
+                Gennem vores Primær researchers (interview med BUTÈs stifter og CEO) fandt vi, at brugerne af Bute bevæger sig indenfor ehverslivskredsende. Enten som studerende eller faglært. (Der ved køber man sig ind i en del af et miljø/ en klub der altid er på farten, og skal have dress shoes der kan klare presset.)     
+                 <br>
+                Behov for selvrealisering. Brugerne ser et behov/tryghed i at realisere sig selv gennem deres evt. Påklædning. som skal passe til alle aspekter af dagen.      
+                 
+                </p>
+            </div>    
+            <div class="golden2">
+                <h2><strong>Hvordan?</strong></h2>
+               <p>Produktion under de bedste forhold “made in Italy” ud fra Sachetto Metoden) som sikrer en komfortabel og fleksibel sko. 
+                <br>
+                Designet med omhu og præcision, for at sikre de mest elegante sko.
+                <br>
+                Være tæt på målgruppen for at at forstå deres værdier og på den måde kommunikere på en måde resonere med dem for på den måde at skabe en form for “klub”.  
+                </p>
+            </div>
+        </div>
+
+        <h2 class="golden_circle_hvorfor"> <strong>Hvorfor?</strong> </h2>
+        <div class="golden_circle">
+            
+        <div class="golden1">   
+                    <h2>Inside-Out:</h2>
+
+                   <p> Alt hvad vi gør hos Búte gør vi for at sikre dig livskvalitet på farten. 
+                    <br>
+                    Det gør vi ved at lave produkter som er i et smukt design og den bedste kvalitet.  
+                    <br>
+                    Be Us Be BUTÉ 
+                    <br>
+                </p>
+        </div>
+        <div class="golden2">
+                   <h2>Outside-In:</h2> 
+                
+                   <p> Hos BUTÈ laver vi kun kvalitets sko. 
+                    <br>
+                    Vores sko er produceret med respekt for håndværk og er made in Italy. 
+                    <br>
+                    Du behøver ikke længere vælge mellem komfort og design. 
+                    <br>
+                    Få det hele. Be Us Be BUTÈ 
+                      
+                </p>
+            </div>
+        </div>
+        
+
+        
+        <div class="sweet">
+            <div id="analyse" class="title">
+                <h1>Sweet Spot</h1>
+            </div> 
+            <br>
+            <div class="sweet_spot_tekst">
+            <p> Et brand univers der tydeligt afspejler brugernes værdier og produkternes design samt skaber en samhørighedsfølelse mellem brandet og brugerne, og dermed et ønske om at være en del af “os” der bruger Buté.
+            </p>
+            </div>
+            <div>
+            <img class="sweet_spot_img" src="image/internsupportsite-bute-img/sweetspot-endelig.png" alt="sweet_spot">
+        </div>
+        </div>  
+            
+        
+        
+
+
+            <div class="title middle">
+                <h1 id="tekst4">Købstragten & Keywords til SEO</h1>
+<br>
+                  <img src="image/internsupportsite-bute-img/Købstragt - intern supportsite/købstragt-ikoner.png" width="500px" alt="illustrationer">
+                  
+                  </div>
+        
+                  <div class="tragt">
+                   
+                    <img src="image/internsupportsite-bute-img/Købstragt - intern supportsite/opmærksomhed.png" width="100px" alt="illustrationer">
+                    <h4 id="tekst4">Opmærksomhed</h4>
+                    <p class="op"> Opnå de potentielle kunders opmærksomhed gennem egne netværk
+                        og at sælge cold canvas. <br><br>
+                        <strong>Keywords:</strong> LinkedIn, marketing, PR
+</p>                        
+                    <br>
+                     </div>
+
+                     <div class="tragt">
+                   
+                    <img src="image/internsupportsite-bute-img/Købstragt - intern supportsite/interesse.png" width="100px" alt="illustrationer">
+                    <h4 id="tekst4">Interesse</h4>
+                    <p class="op"> Opnå brugernes interesse i form af elegant visuelt design og et
+                        brand univers som brugerne ønsker sig at identificere sig med. <br><br>
+                        <strong>Keywords:</strong> Design, visuelt, kvalitet, komfortable                           
+    </p>                        
+                    <br>
+                        </div>
+
+                         <div class="tragt">
+                   
+                            <img src="image/internsupportsite-bute-img/Købstragt - intern supportsite/overvejelse.png" width="100px" alt="illustrationer">
+                            <h4 id="tekst4">Overvejelser</h4>
+                            <p class="op"> Få brugerne til at indse at Buté skaber mest muligt værdi gennem
+                                virksomhedens USP’er som er design, komfort og kvalitet til prisen
+                                sammenlignet med konkurrenterne. <br><br>
+                                <strong>Keywords:</strong> Value for money, design, komfort, kvalitet
+                            </p>                                
+                            <br>
+                             </div>
+
+                             <div class="tragt">
+                   
+                                <img src="image/internsupportsite-bute-img/Købstragt - intern supportsite/evaluering.png" width="100px" alt="illustrationer">
+                                <h4 id="tekst4">Evaluering</h4>
+                                <p class="op"> Ved hjælp af produkter af en særlig høj kvalitet kan Buté opnå kunder
+                                    som anbefaler brandet både online og offline, som virksomheden
+                                    bør udnytte i markedsføringsøjemed og anvende anmeldelserne
+                                    som user generated content. <br><br>
+                                    <strong>Keywords:</strong> Kvalitet, value for money, potentielle kunder, nye kunder,
+                                    PR, marketing
+                                </p>                                    
+                                <br>
+                                 </div>
+                                 <div class="tragt">
+                   
+                                    <img src="image/internsupportsite-bute-img/Købstragt - intern supportsite/beslutning.png" width="100px" alt="illustrationer">
+                                    <h4 id="tekst4">Beslutning</h4>
+                                    <p class="op"> Buté kan med fordel overbevise kunderne i form af promotion aktiviteter,
+                                        som tydeliggøre skoenes høje kvalitet og gode holdbarhed
+                                        ydermere kan virksomheden overbevise brugerne produktionsforholdene
+                                        ift. at produkterne bliver produceret sammen med produkter
+                                        som er langt dyre og af mere anerkendte brands og er italian made. <br><br>
+                                        <strong>Keywords:</strong> Prada, Louis Vuitton, Gucci, holdbarhed, produktion, materialer,
+                                        marketing, italiensk
+                                    </p>                                        
+                                    <br>
+                                     </div>
+
+                                     <div class="tragt">
+                   
+                                        <img src="image/internsupportsite-bute-img/Købstragt - intern supportsite/køb.png" width="100px" alt="illustrationer">
+                                        <h4 id="tekst4">Køb</h4>
+                                        <p class="op"> Buté bør have fokus på at siden er intuitiv og uden for mange forhindringer
+                                            der kan komme i vejen for et potentielt køb. Der kan gøre i
+                                            form af altid at have “kurven” synlig og tilgængelig, og at selve købet
+                                            består af få ukompliceret steps. I denne case fordi det drejer sig som
+                                            sko bør der være særligt fokus på at have en informativ struktur som
+                                            hjælper brugerne med at vælge størrelse, og dermed sørge for det
+                                            element ikke ligger til hindring for et potentielt køb. <br><br>
+                                            <strong>Keywords:</strong> Webshop, materialeliste, materialer, information, salg, sko
+                                        </p>                                            
+                                        <br>
+                                         </div>
+
+                                         <div class="tragt">
+                   
+                                            <img src="image/internsupportsite-bute-img/Købstragt - intern supportsite/gentagelse.png" width="100px" alt="illustrationer">
+                                            <h4 id="tekst4">Gentagelse</h4>
+                                            <p class="op"> Buté kan opnå gentagne kunder ved at forsøge at opnå en personlig
+                                                relation til kunderne i form af håndskrevne breve ved ordre. Virksomheden
+                                                kan også opnå denne relation i form af kontinuerlig påvirkning
+                                                på sociale medier og nyhedsbreve. <br><br>
+                                                <strong>Keywords:</strong> Personlig relation, loyalitet
+</p>                                                  
+                                            <br>
+                                             </div>
+
+                                             <div class="tragt">
+                   
+                                                <img src="image/internsupportsite-bute-img/Købstragt - intern supportsite/loyalitet.png" width="100px" alt="illustrationer">
+                                                <h4 id="tekst4">Loyalitet</h4>
+                                                <p class="op"> Fortsæt med at holde kunderelationen ved at fastholde kommunikationen
+                                                    gennem de kanaler de befinder sig på. <br><br>
+                                                    <strong>Keywords:</strong> Efter køb, loyalitet, PR, omtale, promotion, kunderelation,
+                                                    kundekontakt
+</p>                                                    
+                                                <br>
+                                                 </div>
+                                                 
+
+        
+        
+    
+</div>
+
+<footer>
+    <img class="footer_logo" src="image/internsupportsite-bute-img/footer-mono.jpg" alt="Buté logo">
+</footer>
+    <script src="js/editer.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/vanillaCalendar.js"></script>
+	<script>
+		window.addEventListener('load', function () {
+			vanillaCalendar.init({
+				disablePastDays: true
+			});
+		})
+	</script>
+</body>
+</html>

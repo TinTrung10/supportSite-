@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font */
+
+:root {
+    --overskrift: 'Raleway';
+    --broedtekst: 'poppins';
+}
+
+/* Basic CSS reset */
+
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: var(--broedtekst);
+}
+
+/* You start your css below */  
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0px;
+    background-color: #FEFCFC;
+  }
+
+/* parallax */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+    text-align: center;
+}
+
+.container .title {
+    padding: 6em;
+    font-family: var(--overskrift);
+}
+
+.container h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.container h2 {
+    font-size: 1.5em;
+    color: black;
+    letter-spacing: normal;
+    font-weight: normal;
+}
+
+.container h3 {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.container p {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: left;
+    font-weight: 600;
+    line-height: 3vh;
+    font-size: 0.8em;
+}
+
+.between {
+    height: 100%;
+    position: relative;
+}
+
+.container .pa {
+    background-image: url("../image/internsupportsite-bute-img/intersupportside_parallax1.jpg");
+}
+
+.container .ist {
+    background-image: url("../image/internsupportsite-bute-img/parallax2.jpg");
+}
+
+.container .fir {
+    background-image: url("../image/internsupportsite-bute-img/parallax3.jpg");
+}
+
+.container .parallax {
+    width: 100%;
+    padding: 25em 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/* billeder */
+
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.widgetheader {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* video */
+
+.column2 video, .bokse video, .bokse .pjece {
+    width: 350px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .row2 h3{
+      font-family: var(--overskrift);
+      font-weight: normal;
+  }
+
+/* Create three equal columns that sits next to each other */
+.column2 {
+    flex: 33%;
+    max-width: 30%;
+    padding: 50px 50px;
+    margin-bottom: 2%;
+    border: 1.5px solid black;
+    border-radius: 25px;
+}
+
+.row2 > .column2 {
+    margin: 12px;
+  }
+
+/* ikoner */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 40px;
+  }
+  
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 30px 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.column:hover { -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+/*  widget */
+
+.snapwidget-widget {
+    border:none; 
+    overflow:hidden;  
+    width:765px; 
+    height:765px;
+}
+
+/*  insta */
+.row3  {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 1rem;
+  }
+
+  .row3, .bokse p{
+      font-family: var(--broedtekst);
+      color: black;
+      font-weight: normal;
+      font-size: 1em;
+  }
+
+.row3 > .bokse {
+    margin: 12px;
+  }
+
+/* login */
+
+/* Full-width input fields */
+#username, #password{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  #submit {
+    background-color: lightgray;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .loginContainer {
+    position: relative;
+    color: black;
+    font-family: var(--broedtekst);
+    font-weight: normal;
+    padding: 10%;
+    padding-top: 15%;
+    font-size: 0.9em;
+  }
+
+  .forside_container {
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url("../image/internsupportsite-bute-img/log-ind-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .login {
+    background-color: rgba(255, 255, 255, .7);
+    padding: 5%;
+    position: absolute;
+    display: inline-block;
+    border-radius: 5%;
+  }
+
+
+  .h1login {
+    font-family: var(--broedtekst);
+    color: black;
+    font-weight: normal;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 2.5em;
+  }
+
+  /*Styling af fjern og tilføjelse bokse*/
+
+  .bokse {
+      display: block;
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      flex: 1 auto;
+      padding: 20px;
+      box-shadow: 2px 2px 10px  lightgrey;
+      border-radius: 2px;
+  }
+
+  .bokse_ugc {
+    display: block;
+    width: 98%;
+    height: 85vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 20px;
+    box-shadow: 2px 2px 10px  lightgrey;
+    border-radius: 2px;
+}
+
+.tekst_ugc p{
+  text-align: left;
+}
+
+  .bokse_ugc .pjece{
+    width: 400px
+  }
+
+  .h4bokse_ugc{
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    font-size: 2em;
+    font-family: var(--overskrift);
+    font-weight: normal;
+    text-align: left;
+  }
+
+  .ugc_flex{
+    display: flex;
+  }
+
+  .ugc_flex1{
+    margin-left:18%;
+    margin-right: 2%; 
+  }
+
+  .ugc_flex2{
+    margin-top: 5%;
+    margin-right: 18%;
+    margin-left: 2%;
+  }
+
+
+  .plus_ugc {
+    width: 3%;
+    height: auto;
+    float: right;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+} 
+
+.download_pjece_ugc {
+  width: 3%;
+  height: auto;
+  float: right;
+  position: absolute;
+  right: 10px;
+  bottom: 60px;
+}
+
+  .h4bokse {
+      margin-bottom: 2vh;
+      margin-top: 2vh;
+      font-size: 2em;
+      font-family: var(--overskrift);
+      font-weight: normal;
+  }
+
+   .container .bokse_tekst {
+      text-align: center;
+  }
+
+  .plus {
+    width: 5%;
+    height: auto;
+    float: right;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.download_pjece {
+    width: 5%;
+    height: auto;
+    float: right;
+    position: absolute;
+    right: 10px;
+    bottom: 60px;
+}
+
+/*Designguide og tone of voice*/
+
+.designguide {
+    text-align: center;
+}
+
+.design_guide{
+  margin-bottom: 10vh;
+}
+
+#tekst4{
+    margin-bottom: 10vh;
+    font-family: var(--overskrift);
+}
+
+.download_img{
+    width: 3%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+.tragt p {
+text-align: center;
+margin-left: 300px;
+margin-right: 300px;
+
+}
+
+#analyse{
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.golden_circle{
+  font-family: var(--overskrift);
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-left: 20%;
+  text-align: center;
+  display: flex;
+}
+
+.golden_circle p{
+  font-weight: normal;
+  text-transform: none;
+  text-align: left;
+  padding-top: 2%;
+  line-height: 2.5em;
+}
+
+.golden1{
+  width: 35%;
+}
+
+.golden2{
+  margin-left:5%;
+  width: 35%;
+}
+
+.golden_circle1{
+  display: flex;
+  margin-left: 2%;
+}
+
+
+
+.golden_circle_hvorfor{
+  font-family: var(--overskrift);
+  text-transform: uppercase;
+  padding-top: 4%;
+  padding-bottom:4%;
+}
+
+.golden_circle_img{
+  padding-bottom: 3%;
+}
+
+.sweet{
+  padding-top: 5%;
+}
+
+.sweet h4 {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.sweet_spot{
+  padding-top: 5%;
+  font-family: var(--overskrift);
+  text-transform: uppercase;
+    
+}
+
+.sweet_spot_tekst p{
+  font-family: var(--broedtekst);
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 0 auto;
+  font-weight: 400;
+  line-height: 2.5em;
+}
+
+.sweet_spot_img{
+  width: 80%;
+  height: auto;
+}
+
+.tragt .op {
+  font-weight: 400;
+  font-family: 'poppins';
+}
+
+
+
+/*FOOTER*/
+
+.footer_logo{
+    width: 100%;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 0%;
+}
+
+/* kalender*/
+
+:root {
+    --vcal-bg-color: #fff;
+    --vcal-border-radius: 0;
+    --vcal-border-color: #e7e9ed;
+    --vcal-today-bg-color: #284738;
+    --vcal-today-color: #fff;
+    --vcal-selected-bg-color: #E7E9ED;
+    --vcal-selected-color: #333;
+  }
+  
+  #v-cal *, #v-cal *:before, #v-cal *:after {
+    box-sizing: border-box;
+  }
+  
+  #v-cal {
+    background-color: var(--vcal-bg-color);
+    border-radius: var(--vcal-border-radius);
+    border: solid 1px var(--vcal-border-color);
+    box-shadow: 0 4px 22px 0 rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    padding: 3%;
+    font-family: 'poppins';
+  }
+  
+  #v-cal .vcal-btn {
+    -webkit-appearance: button;
+    background: none;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    line-height: normal;
+    min-width: 27px;
+    outline: none;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #v-cal .vcal-header {
+    align-items: center;
+    display: flex;
+    padding: 1.2rem 1.4rem;
+  }
+  
+  #v-cal .vcal-header svg {
+    fill: var(--vcal-today-bg-color);
+  }
+  
+  #v-cal .vcal-header__label {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #v-cal .vcal-week {
+    background-color: var(--vcal-selected-bg-color);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #v-cal .vcal-week span {
+    flex-direction: column;
+    flex: 0 0 14.28%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    max-width: 14.28%;
+    padding: 1.2rem 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  #v-cal .vcal-body {
+    background-color: rgba(var(--vcal-selected-bg-color), 0.3);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #v-cal .vcal-date {
+    align-items: center;
+    background-color: #fff;
+    border-radius: var(--vcal-border-radius);
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 14.28%;
+    max-width: 14.28%;
+    padding: 1.2rem 0;
+  }
+  
+  #v-cal .vcal-date--active {
+    cursor: pointer;
+  }
+  
+  #v-cal .vcal-date--today {
+    background-color: var(--vcal-today-bg-color);
+    color: var(--vcal-today-color);
+  }
+  
+  #v-cal .vcal-date--selected {
+    background-color: var(--vcal-selected-bg-color);
+    color: var(--vcal-selected-color);
+  }
+  
+  #v-cal .vcal-date--disabled {
+    border-radius: 0;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  .demo-picked {
+    margin: 3%;
+  }
+
+  /*  */
+
+ i {
+  cursor: pointer;
+ } 
+
+input {
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.bx-save {
+  display: none;
+}
+
+html, body, #data_table, #data_table3, #data_table5  {
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  text-align: left;
+}
+
+html, body, #data_table2, #data_table4, #data_table6 {
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  text-align: left;
+}
+
